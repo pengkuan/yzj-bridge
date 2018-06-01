@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "env", 
+      { 
+        "modules": false ,
+        "useBuiltIns": "usage",
+        "targets": {
+          "browsers": ["ie >= 9", "chrome >= 45"]
+        }
+      }
+    ],
+    "stage-2"
+  ],
+  "plugins": [
+    ["transform-runtime", {
+      "helpers": false, // defaults to true
+      "polyfill": false, // defaults to true
+      "regenerator": true, // defaults to true
+    }]
+  ],
+  "comments": false
+}

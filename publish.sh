@@ -1,0 +1,1 @@
+npm publish . --registry http://172.20.176.77:4873

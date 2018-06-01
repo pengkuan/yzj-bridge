@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <!--build:css--><!--endbuild-->
+</head>
+<body>
+<div class="intro" style="margin:1em;">
+  用于测试客户端内部接口是否可调用
+  <ul>
+    <li>黄色：所有测试用例的初始颜色，表示还未运行过测试代码，比如一些需要点击按钮的测试用例，只有在点击后才会执行测试代码</li>
+    <li>绿色：已运行，成功通过</li>
+    <li>红色：已运行，未通过</li>
+    <li>黑色：已运行，接口还未实现（no found）</li>
+  </ul>
+  <h3>当前view的UA：</h3>
+  <p id="ua"></p>
+</div>
+<div id="app" class="app"></div>
+<script src="//cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/lodash.js/4.17.4/lodash.core.min.js"></script>
+<script src="qing.js"></script>
+<!--build:js--><!--endbuild-->
+</body>
+</html>
